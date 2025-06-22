@@ -2,12 +2,18 @@ if SHIELD_CORNE_PROSPECTOR
 
 # Max 16 characters in keyboard name
 config ZMK_KEYBOARD_NAME
-    default "Corne Prospector"
+    default "Prospector"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
+config ZMK_SPLIT_IS_CENTRAL
+    default y
+
 config ZMK_SPLIT
+    default y
+
+config ZMK_SPLIT_BLE
     default y
 
 # Set this to the number of peripherals your dongle will have.
